@@ -19,7 +19,7 @@ menuRef.current.style.right="-350px";
 
   return (
     <div className="navbar">
-      <img  className="logo" src={Sk_verma_logo} alt="Sk-verma-logo" />
+      <img   src={ Sk_verma_logo} alt="Sk-verma-logo" className="logo"/>
       <img className="nav-mob-open" src={menu_open} onClick={openMenu} alt="" />
       <ul ref={menuRef} className="nav-menu">
         <img src={menu_close}  onClick={closeMenu} alt=""   className="nav-mob-close" />
